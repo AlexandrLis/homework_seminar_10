@@ -1,0 +1,529 @@
+.header{
+    position: relative;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.left_top_header{
+    position: absolute;
+    left: 231px;
+}
+
+.lupa{
+    position: absolute;
+    left: 316px;
+}
+
+.right_top_header{
+    position: absolute;
+    right: 240px;
+}
+
+.menu{
+    display: none;
+}
+
+.header:hover .menu{
+    display: block;
+}
+
+
+
+.menu{
+    margin: 60px 100px auto auto;
+    height: 500px;
+}
+
+
+.lineline{
+    position: relative;
+    z-index: 1;
+
+}
+
+.menumenu{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -200px;
+    z-index: 2;
+}
+
+.manman{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -200px;
+    z-index: 2;
+}
+
+.womanwoman{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -200px;
+    z-index: 2;
+}
+
+.kidskids{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -200px;
+    z-index: 2;
+}
+
+
+
+
+
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto auto;
+    background-color: rgb(243, 227, 230);
+}
+
+
+.column_line_pink{
+    margin: 400px auto;
+}
+
+
+.fashion{
+    margin: 400px auto;
+}
+
+
+
+
+.content_one{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.one_photo{
+    position: relative;
+    filter: brightness(50%);
+}
+
+
+.two_photo{
+    position: relative;
+    filter: brightness(50%);
+}
+
+
+.three_photo{
+    position: relative;
+    filter: brightness(50%);
+}
+
+
+
+
+
+
+
+.content_two{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1024px;
+    filter: brightness(50%);
+}
+
+.width{
+    max-width: 1024px;
+}
+
+
+
+
+
+.text{
+    text-align: center;
+    margin: 60px auto;
+}
+
+
+
+
+
+
+.content_three{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto auto;
+}
+
+.content_fourth{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto auto;
+}
+
+p{
+    color: gray;
+}
+
+.hd{
+    max-width: 320px;
+    text-align: center;
+    margin: 20px auto auto;
+}
+.paragraph{
+    max-width: 320px;
+    text-align: center;
+    margin: 20px auto auto;
+}
+
+
+
+
+
+
+
+.price{
+    color: rgb(249, 127, 147);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    max-width: 250px;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.footer_text{
+    color: palevioletred;
+}
+
+
+
+
+
+
+
+h3{color: rgb(167, 165, 165);}
+
+.podval{
+    height: 341px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.left_top_podval{
+    max-width: 360px;
+    text-align: center;
+}
+
+.center_top_podval{
+    max-width: 360px;
+    text-align: center;
+}
+
+.right_top_podval{
+    max-width: 360px;
+    text-align: center;
+}
+
+
+
+
+.podval_center{
+    min-height: 448px;
+    text-align: center;
+}
+
+.gray_phon{
+    opacity: 0.4;
+}
+
+.lefting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: -340px;
+}
+
+.girl_face{
+    max-width: 360px;
+    text-align: center;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+
+
+
+
+.podval_bottom{
+    margin-top: 1px;
+    height: 79px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+
+.little_text{
+    font-size: 30px;
+}
+
+.little_pictures{
+    display: inline;
+}
+
+
+
+.on:hover{
+    filter: invert(74%) sepia(58%) saturate(3054%) hue-rotate(312deg) brightness(111%) contrast(88%);
+}
+
+.tw:hover{
+    filter: invert(74%) sepia(58%) saturate(3054%) hue-rotate(312deg) brightness(111%) contrast(88%);
+
+}
+
+.th:hover{
+    filter: invert(74%) sepia(58%) saturate(3054%) hue-rotate(312deg) brightness(111%) contrast(88%);
+
+}
+
+.fo:hover{
+    filter: invert(74%) sepia(58%) saturate(3054%) hue-rotate(312deg) brightness(111%) contrast(88%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+
+
+@media(max-width: 1265px){
+
+    .big_man{
+        margin-left: -100px;
+    }
+    .column_line_pink{
+        margin-left: -150px;
+    }
+
+    .podval_bottom{
+        gap: 350px;
+    }
+
+}
+
+@media(max-width: 1024px){
+    .content_three{
+        display: block;
+        text-align: center;
+    }
+
+    .content_fourth{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .left_top_header{
+        left: 100px;
+    }
+    
+    .lupa{
+        left: 185px;
+    }
+    
+    .right_top_header{
+        right: 109px;
+    }
+
+    .head{
+        height: 300px;
+        text-align: center;
+    }
+
+    .big_man{
+        display: none;
+    }
+
+    .column_line_pink{
+        margin: 120px auto;
+        width: 8px;
+    }
+
+    .fashion{
+        margin: 120px auto;
+        width: 280px;
+    }
+
+    .content_one{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .content_two{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .width{
+        width: 360px;
+    }
+
+    .podval{
+        flex-direction: column;
+        min-height: 620px;
+    }
+
+
+
+    .gray_phon{
+        min-height: 450px;
+        max-width: 1020px;
+    }
+
+    .lefting{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -600px;
+    }
+
+    .little_text{
+        font-size: 25px;
+    }
+
+    .little_pictures{
+        margin-right: 20px;
+    }
+
+    .podval_center{
+        min-height: 650px;
+    }
+
+    .gray_phon{
+        min-height: 650px;
+    }
+
+    .lefting{
+        margin-top: -550px;
+        gap: 30px;
+    }
+
+    .podval_bottom{
+        gap: 160px;
+    }
+
+}
+
+
+
+
+
+@media(max-width: 767px){
+    .left_top_header{
+        left: 30px;
+    }
+    
+    .lupa{
+        left: 115px;
+    }
+    
+    .right_top_header{
+        right: 59px;
+    }
+
+    .head{
+        height: 250px;
+        text-align: center;
+    }
+
+    .big_man{
+        display: none;
+    }
+
+    .column_line_pink{
+        margin: 100px auto;
+        width: 8px;
+    }
+
+    .fashion{
+        margin: 100px auto;
+        width: 280px;
+    }
+
+    .content_one{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .content_two{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .width{
+        width: 360px;
+    }
+
+
+
+
+
+    .left_top_podval{
+        display: block;
+    }
+}
